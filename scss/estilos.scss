@@ -1,0 +1,25 @@
+$ancho: 150px;
+$alto: 20px;
+
+ul{
+    list-style-type: none;
+}
+
+ul label{
+    width: $ancho;
+    height: $alto;
+    margin: 10px;
+    display: inline-block;
+}
+
+section{
+    width: $ancho;
+    height: $alto;
+    margin: 10px;
+    display: inline-block;
+}
+
+#container{
+    display: inline-block;
+    position: left;
+}
